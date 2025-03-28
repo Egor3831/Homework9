@@ -40,7 +40,6 @@ public class Main {
         int right = reverseFullName.length - 1;
 
         while (left < right) {
-            // Меняем местами символы
             char temp = reverseFullName[left];
             reverseFullName[left] = reverseFullName[right];
             reverseFullName[right] = temp;
